@@ -1,0 +1,6 @@
+-- AlterTable
+ALTER TABLE "Task" ALTER COLUMN "priority" SET DEFAULT 'LOW',
+ALTER COLUMN "status" SET DEFAULT 'TODO';
+
+-- AlterTable
+ALTER TABLE "User" ADD COLUMN     "role" TEXT NOT NULL DEFAULT 'EMPLOYEE';
